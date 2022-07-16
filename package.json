@@ -6,14 +6,13 @@
   "author": "Michael Großklaus <mail@mgrossklaus.de> (https://www.mgrossklaus.de)",
   "license": "MIT",
   "homepage": "https://www.miyagi.dev",
-  "bugs": "https://github.com/mgrsskls/miyagi/issues",
+  "bugs": "https://github.com/miyagi-dev/twig-laravel/issues",
   "repository": {
     "type": "git",
-    "url": "git@github.com:mgrsskls/miyagi.git",
-    "directory": "packages/twig-laravel"
+    "url": "git@github.com:miyagi-dev/twig-laravel.git"
   },
   "scripts": {
-    "release": "standard-version -t twig-laravel/v"
+    "release": "standard-version"
   },
   "dependencies": {
     "deepmerge": "^4.2.2",
@@ -22,5 +21,8 @@
   },
   "peerDependencies": {
     "@miyagi/core": "^3.1.7"
+  },
+  "devDependencies": {
+    "standard-version": "^9.5.0"
   }
 }
